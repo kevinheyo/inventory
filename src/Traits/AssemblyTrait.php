@@ -338,7 +338,7 @@ trait AssemblyTrait
      *
      * @return mixed
      */
-    public function scopeAssembly(Builder $query)
+    public function scopeAssembly($query)
     {
         return $query->where('is_assembly', '=', true);
     }
